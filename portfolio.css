@@ -22,6 +22,11 @@ body {
 	margin: 0;
 }
 
+#border {
+	border-style: solid;
+	border-color: white;
+}
+
 .landing-screen {
 	padding: 0px;
  	margin: 0px;
@@ -327,6 +332,7 @@ body {
 }
 
 .about-blurb {
+	font-family: 'PT Sans', sans-serif;
 	font-size: 25px;
 	margin-top: 2%;
 }
@@ -376,7 +382,6 @@ body {
 
 .work-info-text {
 	font-size: 30px;
-
 }
 
 .work-info-title {
@@ -389,6 +394,7 @@ body {
 	text-align: left;
 	margin-bottom: 10px;
 	text-align: left;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .work-info-text-links {
@@ -413,7 +419,7 @@ body {
 
 .CADAR2-content {
 	margin: 0;
-	margin-bottom: 1.5%;
+	margin-bottom: 0;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -422,7 +428,7 @@ body {
 .CADAR2-text {
 	color: rgb(100,100,100);
 	text-align: center;
-
+	font-family: 'PT Sans', sans-serif;
 }
 
 .CADAR-bottom-bar {
@@ -459,7 +465,7 @@ body {
 }
 
 .formula-landing-image {
-	width: 80%;
+	width: 100%;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -468,7 +474,7 @@ body {
 }
 
 .formula-landing-title {
-	/*font-family: 'PT Sans', sans-serif;*/
+	font-family: 'PT Sans', sans-serif;
 	text-align: center;
 	font-size: 2em;
 }
@@ -476,7 +482,7 @@ body {
 .formula-description {
 	font-family: 'PT Sans', sans-serif;
 	text-align: justify;
-	width: 80%;
+	width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -491,29 +497,44 @@ body {
 	margin-top: 1%;
 	margin-bottom: 1%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .formula-content1 {
 	margin-left: 3%; 
-	font-size: 30px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
+}
+
+.formula-content2 {
+	margin-right: 3%; 
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: justify;
 }
 
 .formula-image1{
 	width: 55%;
+	height: 100%;
 }
 
 .formula-image2{
 	width: 40%;
-	height: 550px;
+	height: 100%;
 }
 
-
-
+.formula-image4{
+	width: 50%;
+	height: 100%;
+}
+/*DBSD---------------------------------------------------------------------------------------*/
 .dbsd-landing-image {
-	width: 55%;
+	width: 100%;
 	height: auto;
 	display: block;
+	margin-top: 1%;
+	margin-bottom: 1%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -526,13 +547,13 @@ body {
 
 .dbsd-landing-image3 {
 	width: 45%; 
-	height: 400px;
+	height: 300px;
 	
 }
 
 .dbsd-landing-image4 {
 	width: 45%;
-	height: 400px;
+	height: 300px;
 	
 }
 
@@ -554,7 +575,7 @@ body {
 }
 
 .dbsd-landing-image7 {
-	width: 35%;
+	width: 55%;
 	height: 240px;
 }
 
@@ -565,7 +586,22 @@ body {
 
 .dbsd-landing-image9 {
 	width: 32%;
-	height: 330px;
+	height: 100%;
+}
+
+.dbsd-landing-image10 {
+	width: 65%;
+	height: 275px;
+}
+
+.dbsd-landing-image11 {
+	width: 35%;
+	height: 275px;
+}
+
+.dbsd-landing-title-center-big {
+	font-size: 50px;
+	
 }
 
 .dbsd-image-center {
@@ -577,38 +613,51 @@ body {
 
 .image-cluster {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
 .dbsd-landing-title-left {
-	font-size: 200%;
-	color: rgb(var(--reddd),var(--greennn),var(--blueee));
+	font-family: 'PT Sans', sans-serif;
+	font-size: 120%;
+	/*color: rgb(var(--reddd),var(--greennn),var(--blueee));*/
 	text-align: left;
 	margin-bottom: 1.2%;
 }
 
 .dbsd-landing-title-center {
-	font-size: 200%;
-	color: rgb(var(--reddd),var(--greennn),var(--blueee));
+	font-family: 'PT Sans', sans-serif;
+	font-size: 120%;
+	/*color: rgb(var(--reddd),var(--greennn),var(--blueee));*/
 	text-align: center;
+	margin-bottom: 0.2%;
+}
+
+.dbsd-landing-title-justify {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 120%;
+	/*color: rgb(var(--reddd),var(--greennn),var(--blueee));*/
+	text-align: justify;
 	margin-bottom: 0.2%;
 }
 
 
 .dbsd-landing-title-right {
-	font-size: 200%;
-	color: rgb(var(--reddd),var(--greennn),var(--blueee));
+	font-family: 'PT Sans', sans-serif;
+	font-size: 120%;
+	/*color: rgb(var(--reddd),var(--greennn),var(--blueee));*/
 	text-align: right;
 	margin-bottom: 0.8%;
 }
 
 .dbsd-sep-bar {
- background-color: rgb(var(--reddd),var(--greennn),var(--blueee));
- width: 100%;
- height: 2px;
- margin-bottom: 0.4%;
- margin-top: 0.4%; 
+	display: block;
+	margin: auto; 
+	background-color: rgb(200,200,200); /*rgb(var(--reddd),var(--greennn),var(--blueee));*/
+	width: 20%;
+	height: 8px;
+	margin-bottom: 5%;
+	margin-top: 5%; 
 }
 
 .dbsd-landing-wrapper {
@@ -618,7 +667,7 @@ body {
 }
 
 .dbsd-big-wrapper {
-	padding: 5%;
+	padding: 21%;
 	padding-bottom: 0.5%;
 	padding-top: 0.5%;
 }
@@ -629,13 +678,16 @@ body {
 }
 
 .list-title {
-	font-size: 160%;
-	color: rgb(var(--reddd),var(--greennn),var(--blueee));
+	font-size: 120%;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	/*color: rgb(var(--reddd),var(--greennn),var(--blueee));*/
 }
 
 .list-wrapper {
-	margin: 1%;
+	margin: 0;
 	margin-top: 0;
+	padding-right: 4%;
 }
 
 
@@ -659,34 +711,51 @@ ul.b {
 	list-style-type: square; 
 }
 
-ul.c{
-	font-size: 130%;
-	color: rgb(var(--reddd),var(--greennn),var(--blueee));
+ul.c {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 120%;
+	/*color: rgb(var(--reddd),var(--greennn),var(--blueee));*/
 	margin: 0.5%;
-	text-align: left;
-	list-style: inside;
+	text-align: justify;
+	list-style: outside;
 	margin-left: 9%;
 	padding-left: 0;
+	margin-top: 2%;
 }
 
 ul.d {
-	font-size: 130%;
-	color: rgb(var(--reddd),var(--greennn),var(--blueee));
+	font-size: 120%;
+	font-family: 'PT Sans', sans-serif;
+	/*color: rgb(var(--reddd),var(--greennn),var(--blueee));*/
 	margin: 0.5%;
 	text-align: left;
 	list-style: inside;
-	margin-left: 0;
+	margin-right: 0;
+	margin-left: 20px; 
 	padding-left: 0;
 	list-style-position:  outside;
 }
 
 ul.e {
-	font-size: 130%;
-	color: rgb(var(--reddd),var(--greennn),var(--blueee));
+	font-size: 120%;
+	font-family: 'PT Sans', sans-serif;
+	/*I rgb(var(--reddd),var(--greennn),var(--blueee));*/
 	margin: 0.5%;
 	text-align: left;
 	list-style: inside;
 	list-style-position:  outside;
 }
+
+ul.f {
+	font-size: 80%;
+	list-style-type: circle;
+	font-family: 'PT Sans', sans-serif;
+	/*I rgb(var(--reddd),var(--greennn),var(--blueee));*/
+	margin: 0.5%;
+	text-align: left;
+	list-style: inside;
+	list-style-position:  outside;
+}
+
 
  
